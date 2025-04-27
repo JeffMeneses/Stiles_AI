@@ -1,0 +1,30 @@
+{"utterance": "Que horas são?", "entities": []}
+{"utterance": "Pode me falar a hora?", "entities": [[17, 21, "CurrentTime"]]}
+{"utterance": "Me diga a hora agora", "entities": [[10, 21, "CurrentTime"]]}
+{"utterance": "Qual é o horário atual?", "entities": [[10, 23, "CurrentTime"]]}
+{"utterance": "Horário atual, por favor", "entities": [[0, 13, "CurrentTime"]]}
+{"utterance": "Pode dizer que horas são agora?", "entities": [[16, 26, "CurrentTime"]]}
+{"utterance": "Qual a hora nesse momento?", "entities": [[8, 28, "CurrentTime"]]}
+{"utterance": "Me informe a hora agora", "entities": [[13, 24, "CurrentTime"]]}
+{"utterance": "Que dia é hoje?", "entities": [[4, 14, "CurrentDate"]]}
+{"utterance": "Qual o dia de hoje?", "entities": [[8, 18, "CurrentDate"]]}
+{"utterance": "Hoje é que dia?", "entities": [[9, 17, "CurrentDate"]]}
+{"utterance": "Me diga a data de hoje", "entities": [[10, 24, "CurrentDate"]]}
+{"utterance": "Qual a data de hoje?", "entities": [[8, 22, "CurrentDate"]]}
+{"utterance": "Data atual, por favor", "entities": [[0, 10, "CurrentDate"]]}
+{"utterance": "Que dia da semana é hoje?", "entities": [[4, 23, "CurrentDate"]]}
+{"utterance": "Me diga qual o dia da semana", "entities": [[13, 31, "CurrentDate"]]}
+{"utterance": "Quanto tempo falta para o Natal?", "entities": [[27, 32, "TargetDate"]]}
+{"utterance": "Quantos dias até o Natal?", "entities": [[20, 25, "TargetDate"]]}
+{"utterance": "Falta muito para o Natal?", "entities": [[20, 25, "TargetDate"]]}
+{"utterance": "Quanto tempo até o meu aniversário?", "entities": [[22, 37, "TargetDate"]]}
+{"utterance": "Quantos dias para meu aniversário?", "entities": [[22, 37, "TargetDate"]]}
+{"utterance": "Quando é meu aniversário?", "entities": [[12, 27, "TargetDate"]]}
+{"utterance": "Quanto tempo falta para 31 de dezembro?", "entities": [[27, 42, "TargetDate"]]}
+{"utterance": "Quantos dias até 31 de dezembro?", "entities": [[20, 35, "TargetDate"]]}
+{"utterance": "31 de dezembro está longe?", "entities": [[0, 15, "TargetDate"]]}
+{"utterance": "Quantos dias faltam para o dia das mães?", "entities": [[27, 41, "TargetDate"]]}
+{"utterance": "Quanto tempo falta para o dia das mães?", "entities": [[27, 41, "TargetDate"]]}
+{"utterance": "Me fala quantos dias faltam pro dia dos pais", "entities": [[33, 46, "TargetDate"]]}
+{"utterance": "Quantos dias pro próximo dia dos pais?", "entities": [[23, 36, "TargetDate"]]}
+{"utterance": "Faltam quantos dias para o fim do ano?", "entities": [[27, 38, "TargetDate"]]}

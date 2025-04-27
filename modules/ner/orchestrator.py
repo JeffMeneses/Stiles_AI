@@ -3,13 +3,8 @@ import json
 import os
 
 def choose_ner(utterance, capsule_name):
-    if capsule_name == "Calendar":
-        return predict(utterance, capsule_name)
-    elif capsule_name == "Reminder":
-        return predict(utterance, capsule_name)
-    elif capsule_name == "Chat":
-        #return predict(utterance, capsule_name)
-        return
+    # TODO: Make Chat be handled by LLM
+    return predict(utterance, capsule_name)
 
 def predict(utterance, capsule_name):
     # Carrega o modelo treinado
@@ -33,7 +28,7 @@ def predict(utterance, capsule_name):
 
 def _get_key_for_value(search_value, capsule_name):
     closed_vocab = _create_vocab_dict(capsule_name)
-    print(f"closed_vocab: {closed_vocab}")
+    #print(f"closed_vocab: {closed_vocab}")
 
     search_value_lower = search_value.lower()
     for category, sub_dict in closed_vocab.items():

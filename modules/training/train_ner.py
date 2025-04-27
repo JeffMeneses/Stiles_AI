@@ -6,7 +6,7 @@ from pathlib import Path
 import modules.utils.constants as constants
 
 def train_all_ner():
-    print ("\n========== [STEP 3] ========== ")
+    print ("\n"+"="*25+" [STEP 3] "+"="*25)
     print(f"⏳ Training NER models...")
     for capsule in constants.SUPPORTED_CAPSULES:
         print(f"⏳ Training NER model for {capsule.title()} capsule...")
@@ -16,6 +16,7 @@ def train_all_ner():
             print(f"✅ The NER model for {capsule.title()} capsule has been trained successfully!")
         except:
             print(f"❌ Something went wrong while training the NER model for {capsule.title()} capsule.")
+            continue
 
     print(f"\n✅ All the NER models have been trained successfully!")
 

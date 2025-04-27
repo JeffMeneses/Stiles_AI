@@ -1,1 +1,1 @@
-SUPPORTED_CAPSULES = ['reminder','calendar','chat']
+SUPPORTED_CAPSULES = ['datetime']

@@ -1,0 +1,31 @@
+utterance,function
+Que horas são?,GetCurrentTime
+Pode me falar a hora?,GetCurrentTime
+Me diga a hora agora,GetCurrentTime
+Qual é o horário atual?,GetCurrentTime
+Horário atual,GetCurrentTime
+Pode dizer que horas são agora?,GetCurrentTime
+Qual a hora nesse momento?,GetCurrentTime
+Me informe a hora agora,GetCurrentTime
+Que dia é hoje?,GetCurrentDate
+Qual o dia de hoje?,GetCurrentDate
+Hoje é que dia?,GetCurrentDate
+Me diga a data de hoje,GetCurrentDate
+Qual a data de hoje?,GetCurrentDate
+Data atual,GetCurrentDate
+Que dia da semana é hoje?,GetCurrentDate
+Me diga qual o dia da semana,GetCurrentDate
+Quanto tempo falta para o Natal?,CalculateTimeUntil
+Quantos dias até o Natal?,CalculateTimeUntil
+Falta muito para o Natal?,CalculateTimeUntil
+Quanto tempo até o meu aniversário?,CalculateTimeUntil
+Quantos dias para meu aniversário?,CalculateTimeUntil
+Quando é meu aniversário?,CalculateTimeUntil
+Quanto tempo falta para 31 de dezembro?,CalculateTimeUntil
+Quantos dias até 31 de dezembro?,CalculateTimeUntil
+31 de dezembro está longe?,CalculateTimeUntil
+Quantos dias faltam para o dia das mães?,CalculateTimeUntil
+Quanto tempo falta para o dia das mães?,CalculateTimeUntil
+Me fala quantos dias faltam pro dia dos pais,CalculateTimeUntil
+Quantos dias pro próximo dia dos pais?,CalculateTimeUntil
+Faltam quantos dias para o fim do ano?,CalculateTimeUntil

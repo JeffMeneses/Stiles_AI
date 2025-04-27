@@ -57,3 +57,33 @@ Fale uma piada boba,Chat
 Me anima com uma piada,Chat
 Que tipo de coisas você pode fazer?,Chat
 Você pode me contar uma história?,Chat
+Que horas são?,Datetime
+Pode me falar a hora?,Datetime
+Me diga a hora agora,Datetime
+Qual é o horário atual?,Datetime
+Horário atual,Datetime
+Pode dizer que horas são agora?,Datetime
+Que dia é hoje?,Datetime
+Qual o dia de hoje?,Datetime
+Hoje é que dia?,Datetime
+Me diga a data de hoje,Datetime
+Qual a data de hoje?,Datetime
+Data atual,Datetime
+Quanto tempo falta para o Natal?,Datetime
+Quantos dias até o Natal?,Datetime
+Falta muito para o Natal?,Datetime
+Quanto tempo até o meu aniversário?,Datetime
+Quantos dias para meu aniversário?,Datetime
+Quando é meu aniversário?,Datetime
+Quanto tempo falta para 31 de dezembro?,Datetime
+Quantos dias até 31 de dezembro?,Datetime
+31 de dezembro está longe?,Datetime
+Qual a hora nesse momento?,Datetime
+Me informe a hora agora,Datetime
+Que dia da semana é hoje?,Datetime
+Me diga qual o dia da semana,Datetime
+Quantos dias faltam para as férias?,Datetime
+Quanto tempo falta para as férias?,Datetime
+Me fala quantos dias faltam pro feriado,Datetime
+Quantos dias pro próximo feriado?,Datetime
+Faltam quantos dias para o fim do ano?,Datetime
