@@ -1,0 +1,1 @@
+SUPPORTED_CAPSULES = ['reminder','calendar','chat']

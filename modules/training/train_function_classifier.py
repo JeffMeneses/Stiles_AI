@@ -4,18 +4,21 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 import joblib
-
-SUPPORTED_CAPSULES = ['reminder','calendar','chat']
+import modules.utils.constants as constants
 
 def train_all_function_classifier():
-    for capsule in SUPPORTED_CAPSULES:
-        print(f"\nTraining {capsule.title()} capsule...")
+    print ("\n========== [STEP 2] ========== ")
+    print(f"⏳ Training Function Classifier models...")
+    for capsule in constants.SUPPORTED_CAPSULES:
+        print(f"⏳ Training Function Classifier model for {capsule.title()} capsule...")
 
         try:
             train_function_classifier(capsule)
-            print(f"✅ The {capsule.title()} capsule has been trained successfully!")
+            print(f"✅ The Function Classifier model for {capsule.title()} capsule has been trained successfully!")
         except:
-            print("❌ Something went wrong in the training process.")
+            print(f"❌ Something went wrong while training the Function Classifier model for {capsule.title()} capsule.")
+    
+    print(f"\n✅ All the Function Classifier models have been trained successfully!")
 
 def train_function_classifier(capsule):
     df = pd.read_csv(f'modules/training/data/{capsule}_function_classifier_data.csv')
@@ -45,6 +48,3 @@ def train_function_classifier(capsule):
     # Save the model and vectorizer
     joblib.dump(clf, f"modules/function_classifier/stiles_{capsule}/{capsule}_random_forest_function_classifier.joblib")
     joblib.dump(vectorizer, f"modules/function_classifier/stiles_{capsule}/{capsule}_tfidf_vectorizer.joblib")
-
-if __name__ == "__main__":
-    train_all_function_classifier()

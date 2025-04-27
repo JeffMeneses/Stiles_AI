@@ -3,26 +3,21 @@ import spacy
 from spacy.tokens import DocBin
 from spacy.cli.train import train
 from pathlib import Path
-
-SUPPORTED_CAPSULES = ['reminder','calendar','chat']
-
-CLOSED_VOCAB = {
-    "Capsule": {
-        "Reminder": ["lembrete", "Lembretes", "Reminder"],
-        "Calendar": ["Calendário", "Agenda", "Calendar"]
-    }
-}
+import modules.utils.constants as constants
 
 def train_all_ner():
-    for capsule in SUPPORTED_CAPSULES:
-        print(f"\nTraining NER model for {capsule.title()} capsule...")
+    print ("\n========== [STEP 3] ========== ")
+    print(f"⏳ Training NER models...")
+    for capsule in constants.SUPPORTED_CAPSULES:
+        print(f"⏳ Training NER model for {capsule.title()} capsule...")
 
         try:
             train_ner(capsule)
             print(f"✅ The NER model for {capsule.title()} capsule has been trained successfully!")
         except:
-            print(f"❌ Something went wrong while training {capsule.title()} capsule.")
+            print(f"❌ Something went wrong while training the NER model for {capsule.title()} capsule.")
 
+    print(f"\n✅ All the NER models have been trained successfully!")
 
 def train_ner(capsule):
     nlp = spacy.blank("pt")
@@ -77,6 +72,3 @@ def train_ner(capsule):
             "paths.dev": str(dev_data_path),
         }
     )
-
-if __name__ == "__main__":
-    train_all_ner()

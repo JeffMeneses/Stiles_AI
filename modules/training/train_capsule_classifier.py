@@ -6,6 +6,8 @@ from sklearn.metrics import classification_report
 import joblib
 
 def train_capsule_classifier():
+    print ("\n========== [STEP 1] ========== ")
+    print(f"⏳ Training Capsule Classifier model...")
     df = pd.read_csv('modules/training/data/capsule_classifier_data.csv')
     print(df.head())
 
@@ -33,6 +35,4 @@ def train_capsule_classifier():
     # Save the model and vectorizer
     joblib.dump(clf, "modules/capsule_classifier/random_forest_capsule_classifier.joblib")
     joblib.dump(vectorizer, "modules/capsule_classifier/tfidf_vectorizer.joblib")
-
-if __name__ == "__main__":
-    train_capsule_classifier()
+    print(f"\n✅ The Capsule Classifier model has been trained successfully!")
