@@ -1,0 +1,15 @@
+{
+    "Capsule": {
+        "Reminder": [
+            "lembrete",
+            "Lembretes", 
+            "Reminder"
+        ],
+        "Calendar": [
+            "Calendário",
+            "Agenda",
+            "Calendar",
+            "evento"
+        ]
+    }
+}

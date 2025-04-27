@@ -1,0 +1,20 @@
+{"utterance": "Me lembre de comprar pão", "entities": [[14, 25, "ReminderName"]]}
+{"utterance": "Criar um lembrete para tomar remédio", "entities": [[9, 17, "Capsule"], [23, 36, "ReminderName"]]}
+{"utterance": "Programe um lembrete para levar o lixo", "entities": [[13, 21, "Capsule"], [27, 40, "ReminderName"]]}
+{"utterance": "Quero um lembrete para estudar", "entities": [[10, 18, "Capsule"], [24, 31, "ReminderName"]]}
+{"utterance": "Monta um lembrete para regar as plantas", "entities": [[10, 18, "Capsule"], [24, 40, "ReminderName"]]}
+{"utterance": "Salve um lembrete para pagar contas", "entities": [[10, 18, "Capsule"], [24, 37, "ReminderName"]]}
+{"utterance": "Lembrete para buscar encomenda", "entities": [[0, 8, "Capsule"], [14, 30, "ReminderName"]]}
+{"utterance": "Me avise para fazer compras", "entities": [[12, 25, "ReminderName"]]}
+{"utterance": "Adicione um lembrete para ir à farmácia", "entities": [[13, 21, "Capsule"], [27, 41, "ReminderName"]]}
+{"utterance": "Configure um lembrete de academia", "entities": [[14, 22, "Capsule"], [26, 34, "ReminderName"]]}
+{"utterance": "Altere o lembrete comprar pão", "entities": [[10, 18, "Capsule"], [19, 30, "ReminderName"]]}
+{"utterance": "Editar o lembrete tomar remédio", "entities": [[10, 18, "Capsule"], [19, 32, "ReminderName"]]}
+{"utterance": "Atualizar lembrete de levar o lixo", "entities": [[10, 18, "Capsule"], [22, 35, "ReminderName"]]}
+{"utterance": "Editar lembrete de estudar para prova", "entities": [[7, 15, "Capsule"], [19, 39, "ReminderName"]]}
+{"utterance": "Modificar lembrete de regar as plantas", "entities": [[10, 18, "Capsule"], [22, 38, "ReminderName"]]}
+{"utterance": "Mudar lembrete de pagar contas", "entities": [[6, 14, "Capsule"], [18, 31, "ReminderName"]]}
+{"utterance": "Corrigir lembrete de buscar encomenda", "entities": [[9, 17, "Capsule"], [21, 37, "ReminderName"]]}
+{"utterance": "Apagar o lembrete comprar pão", "entities": [[10, 18, "Capsule"], [19, 30, "ReminderName"]]}
+{"utterance": "Delete o lembrete tomar remédio", "entities": [[10, 18, "Capsule"], [19, 32, "ReminderName"]]}
+{"utterance": "Remover o lembrete de fazer compras", "entities": [[11, 19, "Capsule"], [23, 36, "ReminderName"]]}

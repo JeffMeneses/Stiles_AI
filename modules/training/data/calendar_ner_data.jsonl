@@ -1,0 +1,20 @@
+{"utterance": "Agende o evento ir ao banco", "entities": [[10, 16, "Capsule"], [17, 28, "EventName"]]}
+{"utterance": "Criar um evento para consertar o carro", "entities": [[9, 15, "Capsule"], [21, 38, "EventName"]]}
+{"utterance": "Adicionar evento de reunião na escola", "entities": [[10, 16, "Capsule"], [20, 38, "EventName"]]}
+{"utterance": "Programe um evento para consulta médica", "entities": [[13, 19, "Capsule"], [25, 41, "EventName"]]}
+{"utterance": "Organizar evento de festa de aniversário", "entities": [[10, 16, "Capsule"], [20, 41, "EventName"]]}
+{"utterance": "Salvar evento de casamento da Ana", "entities": [[7, 13, "Capsule"], [17, 35, "EventName"]]}
+{"utterance": "Cadastrar evento de entrega de produtos", "entities": [[11, 17, "Capsule"], [21, 42, "EventName"]]}
+{"utterance": "Marcar evento de aula de dança", "entities": [[7, 13, "Capsule"], [17, 31, "EventName"]]}
+{"utterance": "Definir evento de visita ao museu", "entities": [[8, 14, "Capsule"], [18, 34, "EventName"]]}
+{"utterance": "Agendar evento de exame médico", "entities": [[8, 14, "Capsule"], [18, 30, "EventName"]]}
+{"utterance": "Altere o evento ir ao banco", "entities": [[10, 16, "Capsule"], [17, 28, "EventName"]]}
+{"utterance": "Editar o evento consertar o carro", "entities": [[10, 16, "Capsule"], [17, 34, "EventName"]]}
+{"utterance": "Modificar evento de reunião na escola", "entities": [[10, 16, "Capsule"], [20, 38, "EventName"]]}
+{"utterance": "Atualizar evento de consulta médica", "entities": [[10, 16, "Capsule"], [20, 36, "EventName"]]}
+{"utterance": "Mudar evento de festa de aniversário", "entities": [[6, 12, "Capsule"], [16, 37, "EventName"]]}
+{"utterance": "Corrigir evento de casamento da Ana", "entities": [[9, 15, "Capsule"], [19, 37, "EventName"]]}
+{"utterance": "Apagar o evento ir ao banco", "entities": [[10, 16, "Capsule"], [17, 28, "EventName"]]}
+{"utterance": "Delete o evento consertar o carro", "entities": [[10, 16, "Capsule"], [17, 34, "EventName"]]}
+{"utterance": "Remover evento de reunião na escola", "entities": [[8, 14, "Capsule"], [18, 36, "EventName"]]}
+{"utterance": "Excluir evento de consulta médica", "entities": [[8, 14, "Capsule"], [18, 34, "EventName"]]}
