@@ -1,0 +1,21 @@
+utterance,function
+Me lembre de comprar pão,CreateReminder
+Criar um lembrete para tomar remédio,CreateReminder
+Programe um lembrete para levar o lixo,CreateReminder
+Quero um lembrete para estudar,CreateReminder
+Monta um lembrete para regar as plantas,CreateReminder
+Salve um lembrete para pagar contas,CreateReminder
+Lembrete para buscar encomenda,CreateReminder
+Me avise para fazer compras,CreateReminder
+Adicione um lembrete para ir à farmácia,CreateReminder
+Configure um lembrete de academia,CreateReminder
+Altere o lembrete comprar pão,EditReminder
+Editar o lembrete tomar remédio,EditReminder
+Atualizar lembrete de levar o lixo,EditReminder
+Editar lembrete de estudar para prova,EditReminder
+Modificar lembrete de regar as plantas,EditReminder
+Mudar lembrete de pagar contas,EditReminder
+Corrigir lembrete de buscar encomenda,EditReminder
+Apagar o lembrete comprar pão,DeleteReminder
+Delete o lembrete tomar remédio,DeleteReminder
+Remover o lembrete de fazer compras,DeleteReminder

@@ -7,4 +7,4 @@ def predict(utterance):
 
     X_new = vectorizer.transform([utterance])
 
-    return  clf.predict(X_new)
+    return  clf.predict(X_new)[0]

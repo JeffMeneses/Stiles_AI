@@ -1,0 +1,19 @@
+utterance,function
+Agende o evento ir ao banco,CreateEvent
+Criar um evento para consertar o carro,CreateEvent
+Altere o evento ir ao banco,EditEvent
+Editar o evento consertar o carro,EditEvent
+Apagar o evento ir ao banco,DeleteEvent
+Delete o evento consertar o carro,DeleteEvent
+Agende reunião com o time de vendas,CreateEvent
+Crie evento para jantar de negócios,CreateEvent
+Coloque evento para consulta médica,CreateEvent
+Marcar evento para exame de sangue,CreateEvent
+Programar evento para entrevista de emprego,CreateEvent
+Atualize o evento reunião do projeto,EditEvent
+Editar evento de viagem a trabalho,EditEvent
+Altere evento de palestra na universidade,EditEvent
+Cancelar evento de consulta odontológica,DeleteEvent
+Delete evento de reunião de pais,DeleteEvent
+Excluir evento de revisão anual,DeleteEvent
+Remover evento de jantar com amigos,DeleteEvent

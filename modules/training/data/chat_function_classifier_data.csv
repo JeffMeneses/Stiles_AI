@@ -1,0 +1,21 @@
+utterance,function
+Oi,Greeting
+Olá,Greeting
+Bom dia!,Greeting
+Boa tarde!,Greeting
+Boa noite!,Greeting
+Tudo certo?,Greeting
+E aí beleza?,Greeting
+Qual é o seu nome?,WhoAmI
+Como você se chama?,WhoAmI
+Quem é você?,WhoAmI
+Qual é a sua função?,WhoAmI
+O que você sabe fazer?,WhoAmI
+Que tipo de coisas você pode fazer?,WhoAmI
+Conte uma piada,Joke
+Me conte uma piada,Joke
+Pode me contar algo engraçado?,Joke
+Tem alguma piada pra me animar?,Joke
+Fale uma piada boba,Joke
+Me anima com uma piada,Joke
+Você pode me contar uma história?,Joke
