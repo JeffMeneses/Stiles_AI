@@ -1,16 +1,6 @@
-from modules.ner.stiles_calendar import predict as calendar_capsule
-from modules.ner.stiles_reminder import predict as reminder_capsule
-from modules.ner.stiles_chat import predict as chat_capsule
 import spacy
 import json
 import os
-
-CLOSED_VOCAB = {
-    "Capsule": {
-        "Reminder": ["lembrete", "Lembretes", "Reminder"],
-        "Calendar": ["Calendário", "Agenda", "Calendar", "Evento"]
-    }
-}
 
 def choose_ner(utterance, capsule_name):
     if capsule_name == "Calendar":

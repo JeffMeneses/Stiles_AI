@@ -23,7 +23,7 @@ def main():
     print(f"The Function Classifier returned: {function_name}")
 
     # 4. Named Entity Recognition (NER)
-    entities_names = ner.choose_ner_capsule(utterance, capsule_name)
+    entities_names = ner.choose_ner(utterance, capsule_name)
     print ("\n========== [STEP 4] ========== ")
     print(f"The Entity Extractor returned: {entities_names}")
 
