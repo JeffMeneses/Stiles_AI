@@ -7,10 +7,10 @@ def choose_function(function_name, entities_names):
         return calculate_time_until(entities_names)
 
 def get_current_time(entities_names):
-    return "Agora são 16:51."
+    return {"text": f"Agora são 16:51."}
 
 def get_current_date(entities_names):
-    return "Hoje é dia 27 de Abril de 2025."
+    return {"text": f"Hoje é dia 27 de Abril de 2025."}
 
 def calculate_time_until(entities_names):
-    return "Faltam 108 dias para o Natal."
+    return {"text": f"Faltam 108 dias para o Natal."}

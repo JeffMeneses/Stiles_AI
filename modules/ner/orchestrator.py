@@ -4,7 +4,10 @@ import os
 
 def choose_ner(utterance, capsule_name):
     # TODO: Make Chat be handled by LLM
-    return predict(utterance, capsule_name)
+    try:
+        return predict(utterance, capsule_name)
+    except:
+        return {}
 
 def predict(utterance, capsule_name):
     # Carrega o modelo treinado

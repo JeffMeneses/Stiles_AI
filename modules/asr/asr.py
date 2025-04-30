@@ -1,2 +1,2 @@
 def get_utterance():
-    return "Me lembre de comprar pão"
+    return "Crie um evento ir ao banco"

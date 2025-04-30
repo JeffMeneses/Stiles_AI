@@ -8,18 +8,18 @@ def choose_function(function_name, entities_names):
 
 def create_event(entities_names):
     try:
-        return f"Ok, criei seu evento chamado {entities_names['EventName']}."
+        return {"text": f"Ok, criei seu evento chamado {entities_names['EventName']}."}
     except:
-        return f"Ok, criei seu evento."
+        return {"text": f"Ok, criei seu evento."}
 
 def delete_event(entities_names):
     try:
-        return f"Ok, apaguei seu evento chamado {entities_names['EventName']}."
+        return {"text": f"Ok, apaguei seu evento chamado {entities_names['EventName']}."}
     except:
-        return f"Ok, apaguei seu evento."
+        return {"text": f"Ok, apaguei seu evento."}
 
 def edit_event(entities_names):
     try:
-        return f"Ok, editei seu evento chamado {entities_names['EventName']}."
+        return {"text": f"Ok, editei seu evento chamado {entities_names['EventName']}."}
     except:
-        return f"Ok, editei seu evento."
+        return {"text": f"Ok, editei seu evento."}

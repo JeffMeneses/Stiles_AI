@@ -7,10 +7,10 @@ def choose_function(function_name, entities_names):
         return joke(entities_names)
 
 def greeting(entities_names):
-    return "Olá, tudo bem?"
+    return {"text": "Olá, tudo bem?"}
 
 def who_am_i(entities_names):
-    return "Você pode me chamar de Stiles."
+    return {"text": "Você pode me chamar de Stiles.", "speech": "Você pode me chamar de Stáius."}
 
 def joke(entities_names):
-    return "Por que o computador foi ao médico? Porque estava cheio de vírus! 😄"
+    return {"text": "Por que o computador foi ao médico? Porque estava cheio de vírus! 😄", "speech": "Por que o computador foi ao médico? Porque estava cheio de vírus!"}
