@@ -7,19 +7,13 @@ def choose_function(function_name, entities_names):
         return delete_reminder(entities_names)
 
 def create_reminder(entities_names):
-    try:
-        return {"text": f"Ok, criei seu lembrete chamado {entities_names['EventName']}."}
-    except:
-        return {"text": f"Ok, criei seu lembrete."}
+    #TODO: Interact with mongoDB to simulate a Device
+    return {'nlg_id': 'create_reminder_NLG_1_1', 'required-entity': ['ReminderName']}
 
 def edit_reminder(entities_names):
-    try:
-        return {"text": f"Ok, editei seu lembrete chamado {entities_names['EventName']}."}
-    except:
-        return {"text": f"Ok, editei seu lembrete."}
+    #TODO: Interact with mongoDB to simulate a Device
+    return {'nlg_id': 'edit_reminder_NLG_2_1', 'required-entity': ['ReminderName']}
 
 def delete_reminder(entities_names):
-    try:
-        return {"text": f"Ok, apaguei seu lembrete chamado {entities_names['EventName']}."}
-    except:
-        return {"text": f"Ok, apaguei seu lembrete."}
+    #TODO: Interact with mongoDB to simulate a Device
+    return {'nlg_id': 'delete_reminder_NLG_3_1', 'required-entity': ['ReminderName']}
